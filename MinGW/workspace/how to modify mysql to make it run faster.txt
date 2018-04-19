@@ -1,0 +1,8 @@
+When I google  mysql slow on windows, it yields 519k results. Follow these suggestions, I modified my.ini, mysql configure file. (On my computer it is located in C:\ProgramData\MySQL\MySQL Server 5.7).
+Then the programs runs much faster. 
+
+The following is my changes:
+innodb_flush_log_at_trx_commit = 2
+innodb_log_buffer_size=10M
+innodb_buffer_pool_size=500M
+innodb_log_file_size=100M

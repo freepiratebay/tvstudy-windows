@@ -1,0 +1,24 @@
+1. So once I you have executed java -jar tvstudy.jar and then logged into the mysql database a new dialog will appear which looks like this (you have probably got to this point already):
+
+2. The next step is to download and install the FCC daily TV database extraction.  To do that you have to go to "Database" then click "Station Data Manager" and a new dialog will show up which looks like this:
+
+3. You will then want to click the "download" drop box and then choose "LMS TV".  Once chosen the program will immediately download the FCC database and install it (you can see today's LMS TV extraction installed in my screen shot above).
+
+Now the program has all the data needed to run studies.  You will be back to this dialog after the database is installed from above:
+
+
+4. So now to run a study choose "Study" then "New Study" then "TV Interference Check" and a new dialog will open up as shown below.  Now lets enter WLRN for the "Call Sign" and click "Baseline", then click "Search" and a new record will be found and displayed,  then click "duplicate":
+
+5. A new dialog window will show up and just click "OK":
+
+6. then it goes back to your preview dialog so then click "Save"
+
+
+7. A new dialog will pop up just click "ok"
+
+8. We once again go back to the previous dialog, now finally click "Build & Run":
+
+
+9. I new dialog will open and show the running results:
+
+10 I will get something that looks like the following:

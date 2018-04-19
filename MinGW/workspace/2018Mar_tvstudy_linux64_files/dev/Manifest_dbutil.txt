@@ -1,0 +1,2 @@
+Main-Class: gov.fcc.tvstudy.dbutil.DbUtil
+Class-Path: tvstudy-core.jar mysql-jdbc.jar pgsql-jdbc.jar xercesImpl.jar

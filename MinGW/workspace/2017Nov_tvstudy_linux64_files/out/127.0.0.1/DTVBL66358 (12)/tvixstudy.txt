@@ -1,0 +1,131 @@
+tvstudy v2.2.4 (D79yS)
+Database: 127.0.0.1,  Study: DTVBL66358 (12),  Model: Longley-Rice
+Start: 1970.01.26 04:31:23
+
+Study created: 2017.12.14 12:56:09
+
+Study build station data: LMS TV 2017-12-09 (1)
+
+    Proposal: WLRN-TV D26 DT BL MIAMI, FL
+ File number: DTVBL66358
+ Facility ID: 66358
+Station data: User record
+   Record ID: 12
+     Country: U.S.
+
+Stations potentially affected by proposal:
+
+IX   Call      Chan       Svc Status  City, State               File Number             Distance
+No   WBEC-TV   D25        DT  CP      BOCA RATON, FL            BLANK0000028453           0.7 km
+No   WBEC-TV   D25        DT  APP     BOCA RATON, FL            BLANK0000034849           0.7
+Yes  WBEC-TV   D25        DT  BL      BOCA RATON, FL            DTVBL51349                0.7
+No   WXAX-CD   D26        DC  LIC     CLEARWATER, FL            BLANK0000001619         291.7
+No   WHDN-CD   D26        DC  CP      NAPLES, FL                BLANK0000003751         163.4
+No   WHDN-CD   D26        DC  LIC     NAPLES, FL                BLANK0000001626         163.3
+No   WKMG-TV   D26        DT  APP     ORLANDO, FL               BLANK0000035777         304.5
+No   WKMG-TV   D26        DT  LIC     ORLANDO, FL               BLCDT20090618ABB        304.5
+No   WSFL-TV   D27        DT  CP      MIAMI, FL                 BLANK0000034244           2.9
+No   WSFL-TV   D27        DT  APP     MIAMI, FL                 BLANK0000036065           2.9
+No   WSFL-TV   D27        DT  BL      MIAMI, FL                 DTVBL10203                2.9
+
+No non-directional AM stations found within 0.8 km
+
+No directional AM stations found within 3.2 km
+
+Record parameters as studied:
+
+    Channel: D26
+   Latitude:  25 58 47.33 N (NAD83)
+  Longitude:  80 11 45.17 W
+Height AMSL: 303.0 m
+       HAAT: 301.0 m
+   Peak ERP: 997 kW
+    Antenna: DIE-TUF-BP4SP-12/48U-1-T (ID 88496) 0.0 deg
+Elev Pattrn: Generic
+  Elec Tilt: 0.80
+
+40.0 dBu contour:
+Azimuth      ERP       HAAT   Distance
+  0.0 deg    909 kW   301.3 m   98.3 km
+ 45.0        328      301.9     89.1
+ 90.0        108      302.5     80.7
+135.0        109      302.5     80.7
+180.0        325      300.9     88.8
+225.0        900      301.4     98.2
+270.0        279      301.5     87.6
+315.0        283      301.4     87.7
+
+Database HAAT does not agree with computed HAAT
+Database HAAT: 301 m   Computed HAAT: 302 m
+
+Distance to Canadian border: 1756.3 km
+
+Distance to Mexican border: 1670.4 km
+
+Conditions at FCC monitoring station: Vero Beach FL
+Bearing: 346.6 degrees   Distance: 185.9 km
+
+Proposal is not within the West Virginia quiet zone area
+
+Conditions at Table Mountain receiving zone:
+Bearing: 310.4 degrees   Distance: 2796.1 km
+
+
+Study cell size: 2.00 km
+Profile point spacing: 1.00 km
+
+Maximum new IX to full-service and Class A: 0.50%
+Maximum new IX to LPTV: 2.00%
+
+
+--------------------------------------------------------------------------------------------------------
+Interference to DTVBL51349 BL scenario 1
+
+             Call      Chan  Svc Status  City, State               File Number             Distance
+Desired:     WBEC-TV   D25   DT  BL      BOCA RATON, FL            DTVBL51349              
+
+Undesireds:  WLRN-TV   D26   DT  BL      MIAMI, FL                 DTVBL66358                0.7 km
+             WLRN-TV   D26   DT  BL      MIAMI, FL                 DTVBL66358                0.7
+             WAMI-DT   D24   DT  CP      HOLLYWOOD, FL             BLANK0000034259           0.0
+             WHDN-CD   D26   DC  CP      NAPLES, FL                BLANK0000003751         163.5
+
+        Service area       Terrain-limited       IX-free, before        IX-free, after    Percent New IX
+ 19777.1   5,381,327   19777.1   5,381,327   19724.9   5,381,327   19724.9   5,381,327     0.00     0.00
+
+Undesired                         Total IX     Unique IX, before      Unique IX, after
+WLRN-TV D26 DT BL         44.2           0      28.1           0                      
+WLRN-TV D26 DT BL         44.2           0                            28.1           0
+WAMI-DT D24 DT CP         24.1           0       8.0           0       8.0           0
+
+--------------------------------------------------------------------------------------------------------
+Interference to DTVBL51349 BL scenario 2
+
+             Call      Chan  Svc Status  City, State               File Number             Distance
+Desired:     WBEC-TV   D25   DT  BL      BOCA RATON, FL            DTVBL51349              
+
+Undesireds:  WLRN-TV   D26   DT  BL      MIAMI, FL                 DTVBL66358                0.7 km
+             WLRN-TV   D26   DT  BL      MIAMI, FL                 DTVBL66358                0.7
+             WAMI-DT   D24   DT  BL      HOLLYWOOD, FL             DTVBL60536                0.0
+             WHDN-CD   D26   DC  CP      NAPLES, FL                BLANK0000003751         163.5
+
+        Service area       Terrain-limited       IX-free, before        IX-free, after    Percent New IX
+ 19777.1   5,381,327   19777.1   5,381,327   19692.6   5,381,327   19692.6   5,381,327     0.00     0.00
+
+Undesired                         Total IX     Unique IX, before      Unique IX, after
+WLRN-TV D26 DT BL         44.2           0      40.2           0                      
+WLRN-TV D26 DT BL         44.2           0                            40.2           0
+WAMI-DT D24 DT BL         44.3           0      40.2           0      40.2           0
+
+--------------------------------------------------------------------------------------------------------
+Interference to proposal scenario 1
+
+             Call      Chan  Svc Status  City, State               File Number             Distance
+Desired:     WLRN-TV   D26   DT  BL      MIAMI, FL                 DTVBL66358              
+
+Undesireds:  WBEC-TV   D25   DT  CP      BOCA RATON, FL            BLANK0000028453           0.7 km
+             WHDN-CD   D26   DC  CP      NAPLES, FL                BLANK0000003751         163.4
+             WKMG-TV   D26   DT  APP     ORLANDO, FL               BLANK0000035777         304.5
+             WSFL-TV   D27   DT  CP      MIAMI, FL                 BLANK0000034244           2.9
+
+        Service area       Terrain-limited               IX-free        Percent IX
+ 24951.2   5,447,399   24951.2   5,447,399   24951.2   5,447,399     0.00     0.00

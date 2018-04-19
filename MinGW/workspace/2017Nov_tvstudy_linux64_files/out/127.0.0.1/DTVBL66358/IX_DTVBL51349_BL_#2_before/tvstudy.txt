@@ -1,0 +1,18 @@
+tvstudy v2.2.4 (D79yS)
+
+    Database: 127.0.0.1
+Station Data: LMS TV 2018-04-10 (1)
+       Study: DTVBL66358
+       Model: Longley-Rice
+    Scenario: IX_DTVBL51349_BL_#2_before
+       Start: 1970.01.26 04:31:23
+
+
+Desired station                                   Service area       Terrain-limited     Interference-free
+
+     Undesired station                           Total interference   Unique interference
+
+WBEC-TV D25 DT BL BOCA RATON, FL           19777.1   5,381,327   19777.1   5,381,327   19692.6   5,381,327
+
+     WAMI-DT D24 DT BL HOLLYWOOD, FL               44.3           0      40.2           0
+     WLRN-TV D26 DT BL MIAMI, FL                   44.2           0      40.2           0

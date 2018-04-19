@@ -1,0 +1,20 @@
+#$version=4
+# 1 2017-06-05 first versioned file
+# 2 2017-06-13 added more ixCheck values formerly in parameters
+# 3 2017-06-28 changed value of showDbName, should be false for release
+# 4 2017-07-28 changed value of iXCheckFilingWindowEndDate to correct value
+showDbName=false
+hideUserRecordDelete=false
+versionCheckURL=https://transition.fcc.gov/bureaus/oet/info/software/tvstudy/version.txt
+lmsDownloadURL=https://enterpriseefiling.fcc.gov/dataentry/api/download/dbfile/Current_LMS_Dump.zip
+cdbsDownloadURL=http://transition.fcc.gov/Bureaus/MB/Databases/cdbs/all-cdbs-files.zip
+autoDeletePreviousDownload=true
+lmsBaselineDate=2017-04-13
+ixCheckFilingWindowEndDate=2017-09-15
+ixCheckIncludeForeignDefault=false
+ixCheckDefaultCellSize=2
+ixCheckDefaultProfileResolution=1
+ixCheckDefaultCellSizeLPTV=1
+ixCheckDefaultProfileResolutionLPTV=1
+ixCheckAMSearchDistanceND=0.8
+ixCheckAMSearchDistanceDA=3.2

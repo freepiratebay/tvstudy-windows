@@ -1,0 +1,228 @@
+12APR2018
+_____________________________________________________________________________________________
+1. Install JDK 8 (8u162 Windows x86): download dk-8u162-windows-i586.exe and install it.
+If running javac in command window, show error:
+javac' is not recognized as an internal or external command
+then add java bin folder in the Path environment variable.
+For example: in Path add:
+C:\Program Files (x86)\Java\jdk1.8.0_162
+
+2. Goto http://www.mingw.org/wiki/Install_MinGW, download and install MinGW.
+Install MinGW at c:\MinGW
+
+_____________________________________________________________________________________________
+Put mingw_tvstudy on your local disk and Replace the original c:\MinGW you just installed.
+
+_____________________________________________________________________________________________
+put ..._tvstudy_linux64_files folder into c:/MinGW/workspace folder
+according the section:how to modify the source code,modify the source code (it is in C:\MinGW_tvstudy\workspace\2018Mar_tvstudy_linux64_files\dev\src) 
+
+goto to C:\MinGW\msys\1.0, double click msys.bat
+$ cd /c/MinGW/workspace/..._tvstudy_linux64_files/dev
+$make
+(if no error, then:)
+$ make install
+
+goto ..._tvstudy_linux64_files/lib
+delete files: ptelev,tvstudy,pair_study_post,convert_ned13
+       
+_____________________________________________________________________________________________
+How to run:
+Open Command Prompt and run:
+c:>cd C:\MinGW_tvstudy\workspace\..._tvstudy_linux64_files\
+c:>java -jar tvstudy.jar
+
+_____________________________________________________________________________________________
+
+how to modify the source code:
+A_line
+B_line
+---meanning replace A_line with B_line
+
+
+only 2017Nov version:
+(dev\src\gov\fcc\tvstudy\core\data\Source.java)
+"attributes text" +
+"attributes VARCHAR(50000) NOT NULL DEFAULT ''" +
+
+
+1. arguments.add(fileOutputConfig.getCodes());
+   arguments.add("\""+fileOutputConfig.getCodes()+"\"");
+
+2. arguments.add(mapOutputConfig.getCodes());
+   arguments.add("\""+mapOutputConfig.getCodes()+"\"");
+
+3. arguments.add(String.valueOf(theStudy.key));
+   arguments.add("\""+String.valueOf(theStudy.key)+"\"");
+
+4. arguments.add(String.valueOf(theStudy.lockCount));
+   arguments.add("\""+String.valueOf(theStudy.lockCount)+"\"");
+
+  
+5.(RunPanelPairStudy.java) 
+  arguments.add(com.toString());
+  arguments.add("\""+com.toString()+"\"");
+
+  (check if the arguments can contain \n)
+
+6.arguments.add(filePath);
+  arguments.add("\""+filePath+"\"");
+
+7.arguments.add(AppCore.libDirectoryPath + File.separator + "pair_study_post");
+  arguments.add("\""+AppCore.libDirectoryPath + File.separator + "pair_study_post"+"\"");
+
+
+8.indexFileName = LIB_DIRECTORY_NAME + "/" + FILE_CHECK_LIST_FILE;
+  indexFileName = LIB_DIRECTORY_NAME + File.separator + FILE_CHECK_LIST_FILE;
+
+
+
+9.ProcessPanel.java
+  private boolean collectOutput() throws IOException {
+  add before return:
+
+		if(result){
+			outputBuffer.replace(0,outputBuffer.length(),outputBuffer.toString().replaceAll("\r",""));
+			if(outputBuffer.length()<1)
+				result = false;
+		}
+
+
+10.out.write(13);
+   out.write("\n".getBytes());
+
+
+11 (Dbcore.java)
+   add:
+	private static String GetMySQLFilePath(String filename)
+	{
+		return "LOAD DATA LOCAL INFILE '" + (AppCore.dataDirectoryPath).replaceAll("\\\\","\\\\\\\\") + "\\\\" +
+			filename+".dat' INTO TABLE "+filename+" FIELDS TERMINATED BY '|' LINES TERMINATED BY '\\n' " +
+			"IGNORE 1 LINES";				
+	}
+
+
+   replace all:
+   db.update("LOAD DATA LOCAL INFILE '"..................+filename.dat
+   with:
+   db.update(GetMySQLFilePath("filename"));
+
+12. STUDY_ENGINE_NAME = "tvstudy";
+    STUDY_ENGINE_NAME = "tvstudy.exe"; 
+
+13.pair_study_post
+   pair_study_post.exe
+
+
+_____________________________________________________________________________________________
+The following is all how to modify *.c and *.h files.
+It is better to use beyondcompare to compare and modify the *.c and *.h files:
+_____________________________________________________________________________________________
+
+1. fopen(*, "w")
+    fopen(*, "wb")
+    (if the file is *.h or java, donnot modify)
+
+    fopen(*, "r");
+    fopen(*, "rb");
+    (if the file is CVS or runfile, donnot modify)
+
+    fopen(*, "r+");
+    fopen(*, "rb+");
+
+    open(fileName, O_RDONLY))
+    open(fileName, O_RDONLY|O_BINARY))
+
+
+2 (memory.h)
+   add:
+   #include <stdint.h>
+   #define u_int8_t uint8_t
+
+
+3 (dev\src\parameter.c, source.c,pair_study_post.c)
+   add:
+   #include <termios.h>
+
+4 replace all POINT with TVPOINT
+
+5 (dev\src\study.c)
+	if (0 == (cpid = fork())) {
+		execvp(args[0], args);
+		_exit(1);
+	}   
+	replace with:
+	if((cpid=_spawnvp(P_NOWAIT, args[0], (const char* const*)args))<0)//if (0 == (cpid = fork())) 
+	{
+		//execvp(args[0], args);
+		_exit(1);
+	}     
+ 
+
+6 (dev\src\terrain.c)
+   #include <sys/sysinfo.h>
+   #include <sys/sysctl.h> 
+
+7 (dev\src\terrain.c)
+   if ((idx = open(fname, O_RDONLY)) >= 0) {
+   if ((idx = open(fname, O_RDONLY|O_BINARY)) >= 0) {
+
+8 (dev\src\terrain.c)
+   modify static void check_memory_size()
+
+   replace with:
+static void check_memory_size() {
+
+	if (TotalCacheSize) {
+		return;
+	}
+
+	DWORDLONG totalMemory = 0;
+
+#ifndef __BUILD_LINUX
+	struct sysinfo si;
+	if (!sysinfo(&si)) {
+		totalMemory = si.totalram * si.mem_unit;
+	}
+#else
+	int mib[2] = {CTL_HW, HW_MEMSIZE};
+	size_t len = sizeof(totalMemory);
+	sysctl(mib, 2, &totalMemory, &len, NULL, 0);	
+#endif	
+
+	DWORDLONG reservedMemory = totalMemory / 2;
+	if (reservedMemory > MAX_RESERVED_SIZE) {
+		reservedMemory = MAX_RESERVED_SIZE;
+	}
+	DWORDLONG cachesize = totalMemory - reservedMemory;
+	if(cachesize>MAX_RESERVED_SIZE)
+		cachesize=MAX_RESERVED_SIZE;
+
+	TotalCacheSize = (size_t) cachesize;
+}
+
+   
+
+9 (dev\src\terrain.h)
+   add:
+   #include <stdint.h>
+   #include <inttypes.h>
+   #include <sys/types.h>
+
+10 (makefile), minor changes,use beyondcompare to modify
+   add:
+   FC=gfortran 
+   
+   add .exe at the end: (for example:EXE=tvstudy.exe)
+   EXE=tvstudy
+   EXEPOST=pair_study_post
+   EXEUTIL=ptelev
+   EXENED=convert_ned13
+   EXENAD=nadcon
+
+   MYSQL_INCLUDE=-I/usr/include/mysql
+   MYSQL_INCLUDE=-I../../../include/mysql
+
+   MYSQL_LIB=/usr/lib/x86_64-linux-gnu/libmysqlclient.so -ldl
+   MYSQL_LIB=-lmysql 
+   

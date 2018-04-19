@@ -1,0 +1,15 @@
+tvstudy v2.2.4 (D79yS)
+
+    Database: 127.0.0.1
+Station Data: LMS TV 2017-12-09 (1)
+       Study: DTVBL66358 (10)
+       Model: Longley-Rice
+    Scenario: MX_#1
+       Start: 1970.01.26 04:31:23
+
+
+Desired station                                   Service area       Terrain-limited     Interference-free
+
+     Undesired station                           Total interference   Unique interference
+
+WLRN-TV D26 DT BL MIAMI, FL                24951.2   5,447,399   24951.2   5,447,399   24951.2   5,447,399

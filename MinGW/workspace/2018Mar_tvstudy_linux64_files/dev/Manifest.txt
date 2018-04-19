@@ -1,0 +1,2 @@
+Main-Class: gov.fcc.tvstudy.TVStudy
+Class-Path: lib/tvstudy-core.jar lib/tvstudy-gui.jar lib/tvstudy-api.jar lib/mysql-jdbc.jar lib/pgsql-jdbc.jar lib/xercesImpl.jar

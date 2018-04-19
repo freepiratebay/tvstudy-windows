@@ -1,0 +1,6 @@
+#!/bin/sh
+#$version=1
+# 1 2017-06-05 first versioned file
+echo "Checking installation of database files..."
+cd $1/dbase
+python checkTerrain.py

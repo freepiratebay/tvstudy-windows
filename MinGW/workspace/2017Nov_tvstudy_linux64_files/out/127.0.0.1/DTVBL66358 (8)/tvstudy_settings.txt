@@ -1,0 +1,1150 @@
+tvstudy v2.2.4 (D79yS)
+Database: 127.0.0.1,  Station Data: LMS TV 2017-12-09 (1),  Study: DTVBL66358 (8),  Model: Longley-Rice
+Start: 1970.01.26 04:31:23
+
+Study parameter settings:
+
+Analysis
+                                                           Grid type: Global 
+                                                           Cell size: 2.00 km
+                                                Study point location: Population centroid 
+                            Move study point to nearest Census point: No 
+                                                     U.S. population: 2010 
+                                                 Canadian population: 2011 
+                                                  Mexican population: 2010 
+                                Round population coordinates:   U.S.: No 
+                                                              Canada: No 
+                                                              Mexico: No 
+                                 Default service area method:   U.S.: FCC curves 
+                                                              Canada: FCC curves 
+                                                              Mexico: FCC curves 
+                      Distance or percent for default method:   U.S.: 0 km or %
+                                                              Canada: 0 km or %
+                                                              Mexico: 0 km or %
+                                     Maximum desired signal distance: 300 km
+                                            Cap TV D/U ramp function: Yes 
+                                            TV D/U ramp function cap: 8 dB
+                                       Include DTS self-interference: No 
+                                                   Propagation speed: 0.2997915 km/µS
+                                              Pre-arrival time limit: -60 µS
+                                             Post-arrival time limit: 60 µS
+                                                        Required D/U: 15 dB
+                                                    Undesired % time: 10 %
+
+CDBS/LMS
+                                                     Respect DA flag: No 
+                                           HAAT radial count:   U.S.: 8 
+                                                              Canada: 8 
+                                                              Mexico: 8 
+                                     Mexican TV digital ERP, VHF low: 45 kW
+                                    Mexican TV digital HAAT, VHF low: 305 m
+                                    Mexican TV digital ERP, VHF high: 160 kw
+                                   Mexican TV digital HAAT, VHF high: 305 m
+                                         Mexican TV digital ERP, UHF: 1000 kW
+                                        Mexican TV digital HAAT, UHF: 365 m
+                                      Mexican TV analog ERP, VHF low: 100 kW
+                                     Mexican TV analog HAAT, VHF low: 305 m
+                                     Mexican TV analog ERP, VHF high: 316 kW
+                                    Mexican TV analog HAAT, VHF high: 305 m
+                                          Mexican TV analog ERP, UHF: 5000 kW
+                                         Mexican TV analog HAAT, UHF: 610 m
+                                                    First TV channel: 2 
+                                                     Last TV channel: 69 
+
+Search
+                          Check individual DTS transmitter distances: No 
+                                              Co-channel MX distance: 5 km
+                         Rule limit extra distance less than low ERP: 72 km
+                                                  Rule limit low ERP: 0.2 kW
+                         Rule limit extra distance low to medium ERP: 95 km
+                                               Rule limit medium ERP: 1.5 kW
+                        Rule limit extra distance medium to high ERP: 120 km
+                                                 Rule limit high ERP: 15 kW
+                     Rule limit extra distance greater than high ERP: 163 km
+                           Use maximum signal distance as rule extra: No 
+                                            Spherical earth distance: 111.15 km/deg
+
+Contours
+                                        Contour radial count:   U.S.: 360 
+                                                              Canada: 360 
+                                                              Mexico: 360 
+                    Digital TV full-service contour, VHF low:   U.S.: 28 dBu
+                                                              Canada: 28 dBu
+                                                              Mexico: 28 dBu
+                   Digital TV full-service contour, VHF high:   U.S.: 36 dBu
+                                                              Canada: 36 dBu
+                                                              Mexico: 36 dBu
+                        Digital TV full-service contour, UHF:   U.S.: 41 dBu
+                                                              Canada: 41 dBu
+                                                              Mexico: 41 dBu
+                    Digital TV Class A/LPTV contour, VHF low:   U.S.: 43 dBu
+                                                              Canada: 43 dBu
+                                                              Mexico: 43 dBu
+                   Digital TV Class A/LPTV contour, VHF high:   U.S.: 48 dBu
+                                                              Canada: 48 dBu
+                                                              Mexico: 48 dBu
+                        Digital TV Class A/LPTV contour, UHF:   U.S.: 51 dBu
+                                                              Canada: 51 dBu
+                                                              Mexico: 51 dBu
+                     Analog TV full-service contour, VHF low:   U.S.: 47 dBu
+                                                              Canada: 47 dBu
+                                                              Mexico: 47 dBu
+                    Analog TV full-service contour, VHF high:   U.S.: 56 dBu
+                                                              Canada: 56 dBu
+                                                              Mexico: 56 dBu
+                         Analog TV full-service contour, UHF:   U.S.: 64 dBu
+                                                              Canada: 64 dBu
+                                                              Mexico: 64 dBu
+                     Analog TV Class A/LPTV contour, VHF low:   U.S.: 62 dBu
+                                                              Canada: 62 dBu
+                                                              Mexico: 62 dBu
+                    Analog TV Class A/LPTV contour, VHF high:   U.S.: 68 dBu
+                                                              Canada: 68 dBu
+                                                              Mexico: 68 dBu
+                         Analog TV Class A/LPTV contour, UHF:   U.S.: 74 dBu
+                                                              Canada: 74 dBu
+                                                              Mexico: 74 dBu
+                                   Use UHF dipole adjustment:   U.S.: Yes 
+                                                              Canada: Yes 
+                                                              Mexico: No 
+                                     Dipole center frequency:   U.S.: 615 MHz
+                                                              Canada: 615 MHz
+                                                              Mexico: 615 MHz
+                        TV contour maximum distance, VHF low:   U.S.: 0 km
+                                                              Canada: 0 km
+                                                              Mexico: 0 km
+                       TV contour maximum distance, VHF high:   U.S.: 0 km
+                                                              Canada: 0 km
+                                                              Mexico: 0 km
+                            TV contour maximum distance, UHF:   U.S.: 0 km
+                                                              Canada: 0 km
+                                                              Mexico: 0 km
+
+FCC Contours
+                                            Average terrain database: 1-second 
+                          Average terrain profile resolution:   U.S.: 10 pts/km
+                                                              Canada: 10 pts/km
+                                                              Mexico: 10 pts/km
+                                      Use elevation patterns:   U.S.: Full-service TV only 
+                                                              Canada: Full-service TV only 
+                                                              Mexico: Full-service TV only 
+                                 Use real elevation patterns:   U.S.: No 
+                                                              Canada: No 
+                                                              Mexico: No 
+                                      Derive azimuth pattern:   U.S.: At radio horizon 
+                                                              Canada: At radio horizon 
+                                                              Mexico: At radio horizon 
+                                   FCC curve set, TV digital:   U.S.: F(50,90) 
+                                                              Canada: F(50,90) 
+                                                              Mexico: F(50,90) 
+                                    FCC curve set, TV analog:   U.S.: F(50,50) 
+                                                              Canada: F(50,50) 
+                                                              Mexico: F(50,50) 
+                          Lookup method below curve minimum distance: Free-space 
+                                   Contour HAAT radial count:   U.S.: 8 
+                                                              Canada: 36 
+                                                              Mexico: 8 
+                             Contour HAAT radial count, LPTV:   U.S.: 360 
+                                                              Canada: 36 
+                                                              Mexico: 8 
+                                                Minimum HAAT:   U.S.: 30.5 m
+                                                              Canada: 30.5 m
+                                                              Mexico: 30.5 m
+                              Average terrain start distance:   U.S.: 3.2 km
+                                                              Canada: 3.2 km
+                                                              Mexico: 3.2 km
+                                Average terrain end distance:   U.S.: 16.1 km
+                                                              Canada: 16.1 km
+                                                              Mexico: 16.1 km
+                                           Truncate DTS service area: Yes 
+                                  DTS distance limit, VHF low Zone I: 108 km
+                             DTS distance limit, VHF low Zone II/III: 128 km
+                                 DTS distance limit, VHF high Zone I: 101 km
+                            DTS distance limit, VHF high Zone II/III: 123 km
+                                             DTS distance limit, UHF: 103 km
+
+L-R Contours
+                                                    Terrain database: 1-second 
+                                                  Profile resolution: 1 pts/km
+                                      Calculation distance increment: 1 km
+                                                  Digital % location: 50 %
+                                                      Digital % time: 90 %
+                                                Digital % confidence: 50 %
+                                                   Analog % location: 50 %
+                                                       Analog % time: 50 %
+                                                 Analog % confidence: 50 %
+                                                 Receiver height AGL: 10 m
+                                                 Signal polarization: Horizontal 
+                                            Atmospheric refractivity: 301 N
+                                                 Ground permittivity: 15 
+                                                 Ground conductivity: 0.005 S/m
+                                                        Service mode: Broadcast 
+                                                        Climate type: Continental temperate 
+
+TV Replication
+                                          Replication method:   U.S.: Equal area 
+                                                              Canada: Equal area 
+                                                              Mexico: Equal area 
+                   Digital full-service minimum ERP, VHF low:   U.S.: 0.1 kW
+                                                              Canada: 0.002 kW
+                                                              Mexico: 0.1 kW
+                  Digital full-service minimum ERP, VHF high:   U.S.: 0.1 kW
+                                                              Canada: 0.002 kW
+                                                              Mexico: 0.1 kW
+                       Digital full-service minimum ERP, UHF:   U.S.: 0.1 kW
+                                                              Canada: 0.002 kW
+                                                              Mexico: 0.1 kW
+            Digital full-service maximum ERP, VHF low Zone I:   U.S.: 10 kW
+                                                              Canada: 10 kW
+                                                              Mexico: 10 kW
+ Digital full-service maximum ERP, VHF low Zone II/III/other:   U.S.: 45 kW
+                                                              Canada: 45 kW
+                                                              Mexico: 45 kW
+           Digital full-service maximum ERP, VHF high Zone I:   U.S.: 30 kW
+                                                              Canada: 30 kW
+                                                              Mexico: 30 kW
+Digital full-service maximum ERP, VHF high Zone II/III/other:   U.S.: 160 kW
+                                                              Canada: 160 kW
+                                                              Mexico: 160 kW
+                       Digital full-service maximum ERP, UHF:   U.S.: 1000 kW
+                                                              Canada: 1000 kW
+                                                              Mexico: 1000 kW
+                       Digital Class A/LPTV minimum ERP, VHF:   U.S.: 0.001 kW
+                                                              Canada: 0.001 kW
+                                                              Mexico: 0.024 kW
+                       Digital Class A/LPTV minimum ERP, UHF:   U.S.: 0.001 kW
+                                                              Canada: 0.001 kW
+                                                              Mexico: 0.024 kW
+                       Digital Class A/LPTV maximum ERP, VHF:   U.S.: 3 kW
+                                                              Canada: 3 kW
+                                                              Mexico: 3 kW
+                       Digital Class A/LPTV maximum ERP, UHF:   U.S.: 15 kW
+                                                              Canada: 15 kW
+                                                              Mexico: 15 kW
+
+Patterns
+                                     Depression angle method:   U.S.: True geometry 
+                                                              Canada: True geometry 
+                                                              Mexico: True geometry 
+                                    Use mechanical beam tilt:   U.S.: Real patterns only 
+                                                              Canada: Never 
+                                                              Mexico: Never 
+                             Use generic patterns by default:   U.S.: Yes 
+                                                              Canada: Yes 
+                                                              Mexico: Yes 
+                                     Mirror generic patterns:   U.S.: Never 
+                                                              Canada: Never 
+                                                              Mexico: Never 
+                               Beam tilt on generic patterns:   U.S.: Offset 
+                                                              Canada: Offset 
+                                                              Mexico: Offset 
+                               Double generic pattern values:   U.S.: LPTV and Class A 
+                                                              Canada: LPTV and Class A 
+                                                              Mexico: LPTV and Class A 
+                                       Invert negative tilts:   U.S.: Yes 
+                                                              Canada: Yes 
+                                                              Mexico: Yes 
+                                Digital receive antenna f/b, VHF low: 10 dB
+                               Digital receive antenna f/b, VHF high: 12 dB
+                                    Digital receive antenna f/b, UHF: 14 dB
+                                 Analog receive antenna f/b, VHF low: 6 dB
+                                Analog receive antenna f/b, VHF high: 6 dB
+                                     Analog receive antenna f/b, UHF: 6 dB
+
+Propagation
+                                                    Terrain database: 1-second 
+                                          Profile resolution:   U.S.: 1.0 pts/km
+                                                              Canada: 1.0 pts/km
+                                                              Mexico: 1.0 pts/km
+                                        Model error handling:   U.S.: Assume service 
+                                                              Canada: Assume service 
+                                                              Mexico: Assume service 
+                                                 Receiver height AGL: 10 m
+                                      Minimum transmitter height AGL: 10 m
+                                          Digital desired % location: 50 %
+                                              Digital desired % time: 90 %
+                                        Digital desired % confidence: 50 %
+                                        Digital undesired % location: 50 %
+                                      Digital undesired % confidence: 50 %
+                                           Analog desired % location: 50 %
+                                               Analog desired % time: 50 %
+                                         Analog desired % confidence: 50 %
+                                         Analog undesired % location: 50 %
+                                       Analog undesired % confidence: 50 %
+                                                 Signal polarization: Horizontal 
+                                            Atmospheric refractivity: 301 N
+                                                 Ground permittivity: 15 
+                                                 Ground conductivity: 0.005 S/m
+                                                        Service mode: Broadcast 
+                                                        Climate type: Continental temperate 
+
+Service
+                                              Set service thresholds: No 
+
+Clutter
+                                           Apply clutter adjustments: No 
+
+TV IX Check
+                                            Maximum new interference: 0.5 %
+                                    Maximum new interference to LPTV: 2 %
+                                         Check proposal vs. baseline: No 
+                             Maximum contour extension from baseline: 1 %
+                          Maximum population reduction from baseline: 5 %
+
+
+Active interference rules:
+
+Ctry D  Service D                Bnd D  Service U                Channel U   Mask U        Offset  Dist km   D/U dB     % U
+
+U.S.    TV Full Service digital  (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Full Service digital  (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Full Service digital  (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Full Service digital  (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+U.S.    TV Full Service digital  (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Full Service digital  (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Full Service digital  (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+U.S.    TV Full Service digital  (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Full Service digital  (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   8 below     (n/a)         (any)      35.0   -32.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   7 below     (n/a)         (any)     100.0   -30.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   3 below     (n/a)         (any)      35.0   -33.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   2 below     (n/a)         (any)      35.0   -26.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0    -3.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Full Service analog   (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -13.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   2 above     (n/a)         (any)      35.0   -29.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   3 above     (n/a)         (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   4 above     (n/a)         (any)      35.0   -23.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   7 above     (n/a)         (any)     100.0   -33.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   8 above     (n/a)         (any)      35.0   -41.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   14 above    (n/a)         (any)     100.0   -25.00   10.00
+U.S.    TV Full Service analog   UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -9.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Full Service analog   VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Full Service analog   UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Full Service analog   (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Full Service analog   (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Full Service analog   UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Full Service analog   VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Full Service analog   UHF    TV Class A analog        14 above    (n/a)         (any)     100.0   -23.00   50.00
+U.S.    TV Full Service analog   UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Full Service analog   UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Full Service analog   VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Full Service analog   (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Full Service analog   (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Full Service analog   VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Full Service analog   UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Full Service analog   UHF    TV Low Power analog      14 above    (n/a)         (any)     100.0   -23.00   50.00
+U.S.    TV Full Service analog   UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Class A digital       (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Class A digital       (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Class A digital       (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Class A digital       (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+U.S.    TV Class A digital       (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Class A digital       (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   50.00
+U.S.    TV Class A digital       (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Class A digital       (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   50.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+U.S.    TV Class A digital       (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Class A digital       (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Class A analog        (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Class A analog        (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Class A analog        (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Class A analog        UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Class A analog        VHF    TV Full Service analog   1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Class A analog        UHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Class A analog        (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Class A analog        VHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Class A analog        UHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        UHF    TV Full Service analog   14 above    (n/a)         (any)     100.0   -23.00   50.00
+U.S.    TV Class A analog        UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Class A analog        UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Class A analog        UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Class A analog        VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Class A analog        UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Class A analog        (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Class A analog        VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Class A analog        UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Class A analog        UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Class A analog        VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Class A analog        UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Class A analog        (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Class A analog        VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Class A analog        UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Class A analog        UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Low Power digital     (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Low Power digital     (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Low Power digital     (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Low Power digital     (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+U.S.    TV Low Power digital     (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Low Power digital     (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   50.00
+U.S.    TV Low Power digital     (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Low Power digital     (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   50.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+U.S.    TV Low Power digital     (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+U.S.    TV Low Power digital     (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+U.S.    TV Low Power analog      (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   50.00
+U.S.    TV Low Power analog      (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Low Power analog      (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   50.00
+U.S.    TV Low Power analog      UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   50.00
+U.S.    TV Low Power analog      VHF    TV Full Service analog   1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Low Power analog      UHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Low Power analog      (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Low Power analog      UHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      VHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Low Power analog      UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Low Power analog      (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Low Power analog      (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Low Power analog      UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Low Power analog      UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+U.S.    TV Low Power analog      UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+U.S.    TV Low Power analog      VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+U.S.    TV Low Power analog      UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+U.S.    TV Low Power analog      (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+U.S.    TV Low Power analog      VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+U.S.    TV Low Power analog      UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+U.S.    TV Low Power analog      UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+Canada  TV Full Service digital  (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Full Service digital  (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Full Service digital  (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Full Service digital  (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Full Service digital  (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Full Service digital  (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Full Service digital  (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Full Service digital  (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Full Service analog   (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Full Service analog   (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Full Service analog   (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  14 above    ATSC          (any)     100.0   -46.00   50.00
+Canada  TV Full Service analog   UHF    TV Full Service digital  15 above    ATSC          (any)     125.0   -28.00   50.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Full Service analog   VHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -25.00   50.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -36.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Full Service analog   VHF    TV Full Service analog   co-channel  (n/a)         With      300.0    15.00   10.00
+Canada  TV Full Service analog   VHF    TV Full Service analog   co-channel  (n/a)         Without   300.0    32.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -36.00   10.00
+Canada  TV Full Service analog   VHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -25.00   50.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   14 above    (n/a)         (any)      35.0   -46.00   10.00
+Canada  TV Full Service analog   UHF    TV Full Service analog   15 above    (n/a)         (any)      35.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        co-channel  (n/a)         Without   300.0    28.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Full Service analog   VHF    TV Class A analog        co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Full Service analog   VHF    TV Class A analog        co-channel  (n/a)         With      300.0    25.00   10.00
+Canada  TV Full Service analog   (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        14 above    (n/a)         (any)     100.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Class A analog        15 above    (n/a)         (any)     125.0   -10.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      co-channel  (n/a)         Without   300.0    28.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Full Service analog   VHF    TV Low Power analog      co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Full Service analog   VHF    TV Low Power analog      co-channel  (n/a)         With      300.0    25.00   10.00
+Canada  TV Full Service analog   (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      14 above    (n/a)         (any)     100.0   -28.00   10.00
+Canada  TV Full Service analog   UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0   -10.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Low Power digital     (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Low Power digital     (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+Canada  TV Low Power digital     (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Low Power analog      (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Low Power analog      (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Low Power analog      (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  14 above    ATSC          (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Low Power analog      (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Low Power analog      VHF    TV Full Service analog   co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Low Power analog      VHF    TV Full Service analog   co-channel  (n/a)         With      300.0    25.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   co-channel  (n/a)         Without   300.0    28.00   10.00
+Canada  TV Low Power analog      (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   14 above    (n/a)         (any)     100.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0   -10.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      VHF    TV Class A analog        co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Low Power analog      VHF    TV Class A analog        co-channel  (n/a)         With      300.0    25.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        co-channel  (n/a)         Without   300.0    28.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Low Power analog      (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        14 above    (n/a)         (any)     100.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Class A analog        15 above    (n/a)         (any)     125.0   -10.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      7 below     (n/a)         (any)     100.0   -30.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      3 below     (n/a)         (any)      35.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      2 below     (n/a)         (any)      35.0   -26.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      VHF    TV Low Power analog      co-channel  (n/a)         Without   300.0    35.00   10.00
+Canada  TV Low Power analog      VHF    TV Low Power analog      co-channel  (n/a)         With      300.0    25.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      co-channel  (n/a)         Without   300.0    28.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      co-channel  (n/a)         With      300.0    18.00   10.00
+Canada  TV Low Power analog      (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -16.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      2 above     (n/a)         (any)      35.0   -29.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      3 above     (n/a)         (any)      35.0   -34.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      4 above     (n/a)         (any)      35.0   -23.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      7 above     (n/a)         (any)     100.0   -33.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      14 above    (n/a)         (any)     100.0   -28.00   10.00
+Canada  TV Low Power analog      UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0   -10.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Full Service digital  (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Full Service digital  (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+Mexico  TV Full Service digital  (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Full Service digital  (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   8 below     (n/a)         (any)      35.0   -32.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   7 below     (n/a)         (any)     100.0   -30.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   3 below     (n/a)         (any)      35.0   -33.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   2 below     (n/a)         (any)      35.0   -26.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0    -3.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Full Service analog   (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -13.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   2 above     (n/a)         (any)      35.0   -29.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   3 above     (n/a)         (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   4 above     (n/a)         (any)      35.0   -23.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   7 above     (n/a)         (any)     100.0   -33.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   8 above     (n/a)         (any)      35.0   -41.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   14 above    (n/a)         (any)     100.0   -25.00   10.00
+Mexico  TV Full Service analog   UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -9.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Full Service analog   UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Full Service analog   VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Full Service analog   UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Full Service analog   (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Full Service analog   (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Full Service analog   VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Full Service analog   UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Full Service analog   UHF    TV Class A analog        14 above    (n/a)         (any)     100.0   -23.00   50.00
+Mexico  TV Full Service analog   UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Full Service analog   UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Full Service analog   VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Full Service analog   UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Full Service analog   (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Full Service analog   (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Full Service analog   VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Full Service analog   UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Full Service analog   UHF    TV Low Power analog      14 above    (n/a)         (any)     100.0   -23.00   50.00
+Mexico  TV Full Service analog   UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Class A digital       (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Class A digital       (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Class A digital       (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Class A digital       (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+Mexico  TV Class A digital       (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Class A digital       (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   50.00
+Mexico  TV Class A digital       (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Class A digital       (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   50.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+Mexico  TV Class A digital       (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Class A digital       (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Class A analog        (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Class A analog        (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Class A analog        (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        VHF    TV Full Service analog   1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Class A analog        (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Class A analog        (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Class A analog        UHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        VHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Class A analog        UHF    TV Full Service analog   14 above    (n/a)         (any)     100.0   -23.00   50.00
+Mexico  TV Class A analog        UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Class A analog        UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Class A analog        UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Class A analog        (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Class A analog        (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Class A analog        VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Class A analog        UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Class A analog        VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Class A analog        UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Class A analog        (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Class A analog        UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Class A analog        VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Class A analog        UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Low Power digital     (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Low Power digital     (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Low Power digital     (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Low Power digital     (any)  TV Full Service analog   1 below     (n/a)         (any)     100.0   -48.00   10.00
+Mexico  TV Low Power digital     (any)  TV Full Service analog   co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Low Power digital     (any)  TV Full Service analog   1 above     (n/a)         (any)     100.0   -49.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -28.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A analog        1 below     (n/a)         (any)     100.0   -48.00   50.00
+Mexico  TV Low Power digital     (any)  TV Class A analog        co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Low Power digital     (any)  TV Class A analog        1 above     (n/a)         (any)     100.0   -49.00   50.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    15.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    -7.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -12.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -26.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power analog      1 below     (n/a)         (any)     100.0   -48.00   50.00
+Mexico  TV Low Power digital     (any)  TV Low Power analog      co-channel  (n/a)         (any)     300.0     2.00   10.00
+Mexico  TV Low Power digital     (any)  TV Low Power analog      1 above     (n/a)         (any)     100.0   -49.00   50.00
+Mexico  TV Low Power analog      (any)  TV Full Service digital  1 below     ATSC          (any)     100.0   -14.00   50.00
+Mexico  TV Low Power analog      (any)  TV Full Service digital  co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Low Power analog      (any)  TV Full Service digital  1 above     ATSC          (any)     100.0   -17.00   50.00
+Mexico  TV Low Power analog      UHF    TV Full Service digital  15 above    ATSC          (any)      35.0   -31.00   50.00
+Mexico  TV Low Power analog      VHF    TV Full Service analog   1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Low Power analog      UHF    TV Full Service analog   1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      (any)  TV Full Service analog   co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Low Power analog      (any)  TV Full Service analog   co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Low Power analog      VHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Low Power analog      UHF    TV Full Service analog   1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      UHF    TV Full Service analog   15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A digital       1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A digital       15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A analog        1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      VHF    TV Class A analog        1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Low Power analog      (any)  TV Class A analog        co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Low Power analog      (any)  TV Class A analog        co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Low Power analog      UHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      VHF    TV Class A analog        1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Low Power analog      UHF    TV Class A analog        15 above    (n/a)         (any)     125.0    -6.00   50.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     8 below     ATSC          (any)      35.0   -32.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     7 below     ATSC          (any)      35.0   -35.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     4 below     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     3 below     ATSC          (any)      35.0   -30.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     2 below     ATSC          (any)      35.0   -24.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 below     ATSC          (any)     100.0   -14.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     co-channel  ATSC          (any)     300.0    34.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0    10.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0     0.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power digital     1 above     ATSC          (any)     100.0   -17.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     2 above     ATSC          (any)      35.0   -28.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     3 above     ATSC          (any)      35.0   -34.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     4 above     ATSC          (any)      35.0   -25.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     7 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     8 above     ATSC          (any)      35.0   -43.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     14 above    ATSC          (any)      35.0   -33.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power digital     15 above    ATSC          (any)      35.0   -31.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power analog      1 below     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      VHF    TV Low Power analog      1 below     (n/a)         (any)     100.0    -6.00   50.00
+Mexico  TV Low Power analog      (any)  TV Low Power analog      co-channel  (n/a)         With      300.0    28.00   10.00
+Mexico  TV Low Power analog      (any)  TV Low Power analog      co-channel  (n/a)         Without   300.0    45.00   10.00
+Mexico  TV Low Power analog      UHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -15.00   50.00
+Mexico  TV Low Power analog      VHF    TV Low Power analog      1 above     (n/a)         (any)     100.0   -12.00   50.00
+Mexico  TV Low Power analog      UHF    TV Low Power analog      15 above    (n/a)         (any)     125.0    -6.00   50.00
+
+

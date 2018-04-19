@@ -1,0 +1,23 @@
+#$version=5
+# 1 2017-06-05 first versioned file
+# 2 2017-06-13 changes to config.props, latest TVIX template XML
+# 3 2017-06-28 changes to config.props
+# 4 2017-07-05 changes to config.props
+# 5 2017-11-16 changes to latest TVIX template XML
+November 21, 2017
+lib/cdbs_table_defs.dat
+1
+lib/check_install
+1
+lib/config.props
+4
+lib/land_mobile_exclude.csv
+1
+lib/land_mobile_waiver.csv
+1
+lib/land_mobile.csv
+1
+lib/monitor_station.csv
+1
+xml/TVIXCheck.xml
+3
