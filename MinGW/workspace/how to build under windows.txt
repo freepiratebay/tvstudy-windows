@@ -1,4 +1,4 @@
-12APR2018
+19APR2018
 _____________________________________________________________________________________________
 1. Install JDK 8 (8u162 Windows x86): download dk-8u162-windows-i586.exe and install it.
 If running javac in command window, show error:
@@ -11,13 +11,13 @@ C:\Program Files (x86)\Java\jdk1.8.0_162
 Install MinGW at c:\MinGW
 
 _____________________________________________________________________________________________
-Put mingw_tvstudy on your local disk and Replace the original c:\MinGW you just installed.
+Use my mingw to replace the original c:\MinGW you just installed.
 
 _____________________________________________________________________________________________
 put ..._tvstudy_linux64_files folder into c:/MinGW/workspace folder
-according the section:how to modify the source code,modify the source code (it is in C:\MinGW_tvstudy\workspace\2018Mar_tvstudy_linux64_files\dev\src) 
+according the section:how to modify the source code,modify the source code (the source code is located in ..._tvstudy_linux64_files\dev\src) 
 
-goto to C:\MinGW\msys\1.0, double click msys.bat
+goto to C:\MinGW\msys\1.0, double click msys.bat, and run the followings:
 $ cd /c/MinGW/workspace/..._tvstudy_linux64_files/dev
 $make
 (if no error, then:)
