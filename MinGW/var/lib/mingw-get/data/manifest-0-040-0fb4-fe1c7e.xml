@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-040-0fb4-fe1c7e">
+    <release tarname="gcc-fortran-4.8.1-4-mingw32-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="bin" />
+        <dir path="share" />
+        <dir path="share/doc" />
+        <dir path="share/doc/gcc" />
+        <dir path="share/doc/gcc/4.8.1" />
+        <dir path="share/doc/gcc/4.8.1/gcc" />
+        <dir path="share/doc/gcc/4.8.1/gcc/fortran" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2002" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2003" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2004" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2005" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2006" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2007" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2008" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2009" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2010" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2011" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog-2012" />
+        <file path="share/doc/gcc/4.8.1/gcc/fortran/ChangeLog.ptr" />
+        <dir path="share/doc/gcc/4.8.1/libgfortran" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2002" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2003" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2004" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2005" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2006" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2007" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2008" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2009" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2010" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2011" />
+        <file path="share/doc/gcc/4.8.1/libgfortran/ChangeLog-2012" />
+    </manifest>
+</package>

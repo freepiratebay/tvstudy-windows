@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-046-0b41-bb9887">
+    <release tarname="gcc-v3-g77-3.4.5-20060117-3-mingw32-bin.tar.gz" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="bin" />
+        <file path="bin/g77.exe" />
+        <dir path="info" />
+        <file path="info/g77.info" />
+        <dir path="lib" />
+        <dir path="lib/gcc" />
+        <dir path="lib/gcc/mingw32" />
+        <dir path="lib/gcc/mingw32/3.4.5" />
+        <dir path="lib/gcc/mingw32/3.4.5/include" />
+        <file path="lib/gcc/mingw32/3.4.5/include/g2c.h" />
+        <file path="lib/libfrtbegin.a" />
+        <file path="lib/libg2c.a" />
+        <file path="lib/libg2c.la" />
+        <dir path="libexec" />
+        <dir path="libexec/gcc" />
+        <dir path="libexec/gcc/mingw32" />
+        <dir path="libexec/gcc/mingw32/3.4.5" />
+        <file path="libexec/gcc/mingw32/3.4.5/f771.exe" />
+        <dir path="man" />
+        <dir path="man/man1" />
+        <file path="man/man1/g77.1" />
+    </manifest>
+</package>
